@@ -15,14 +15,14 @@ jobs:
 
   ananya:
     name: Ananya Job
-    runs-on: self-hosted
+    runs-on: self-hosted, Linux, EC2
     steps:
       - name: Print Ananya
         run: echo "Ananya"
 
   testing:
     name: Testing Job
-    runs-on: self-hosted
+    runs-on: self-hosted, Linux, EC2
     steps:
       - name: Print Testing
         run: echo "Testing"
