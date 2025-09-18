@@ -8,7 +8,7 @@ on:
 jobs:
   hello:
     name: Hello Job
-    runs-on: self-hosted
+    runs-on: self-hosted, Linux, EC2
     steps:
       - name: Print Hello
         run: echo "Hello"
