@@ -1,0 +1,28 @@
+name: Test Runners Workflow
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  hello:
+    name: Hello Job
+    runs-on: self-hosted
+    steps:
+      - name: Print Hello
+        run: echo "Hello"
+
+  ananya:
+    name: Ananya Job
+    runs-on: self-hosted
+    steps:
+      - name: Print Ananya
+        run: echo "Ananya"
+
+  testing:
+    name: Testing Job
+    runs-on: self-hosted
+    steps:
+      - name: Print Testing
+        run: echo "Testing"
