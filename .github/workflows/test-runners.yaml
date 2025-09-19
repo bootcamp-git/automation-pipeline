@@ -25,4 +25,4 @@ jobs:
     runs-on: [self-hosted, linux, ec2]
     steps:
       - name: Print Testing
-        run: echo "tested"
+        run: echo "testing"
