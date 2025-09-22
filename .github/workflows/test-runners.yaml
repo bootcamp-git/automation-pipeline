@@ -18,7 +18,7 @@ jobs:
     runs-on: [self-hosted, linux, ec2]
     steps:
       - name: Print Ananya
-        run: echo "ananyaaa"
+        run: echo "ananyaaaa"
 
   testing:
     name: Testing Job
