@@ -11,18 +11,18 @@ jobs:
     runs-on: [self-hosted, linux, ec2]
     steps:
       - name: Print Hello
-        run: echo "hiiiiiiii"
+        run: echo "hiiiiiiii - job 1"
 
   ananya:
     name: Ananya Job
     runs-on: [self-hosted, linux, ec2]
     steps:
       - name: Print Ananya
-        run: echo "ananyaaaaaa"
+        run: echo "ananyaaaaaa - job 2"
 
   testing:
     name: Testing Job
     runs-on: [self-hosted, linux, ec2]
     steps:
       - name: Print Testing
-        run: echo "testing"
+        run: echo "testingg - job 3"
