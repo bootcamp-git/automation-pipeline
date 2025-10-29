@@ -8,21 +8,21 @@ on:
 jobs:
   hello:
     name: Hello Job
-    runs-on: [self-hosted, linux, ec2]
+    runs-on: [tabcorp,security,test]
     steps:
       - name: Print Hello
         run: echo "hiiiiiiii - job 1"
 
   ananya:
     name: Ananya Job
-    runs-on: [self-hosted, linux, ec2]
+    runs-on: [tabcorp,security,test]
     steps:
       - name: Print Ananya
         run: echo "ananyaaaaaa - job 2"
 
   testing:
     name: Testing Job
-    runs-on: [self-hosted, linux, ec2]
+    runs-on: [tabcorp,security,test]
     steps:
       - name: Print Testing
         run: echo "testingg - job 3"
